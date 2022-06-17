@@ -16,6 +16,8 @@ Angular CLI version 8.3.0
 
 Install ng-zorro-antd，minireset.css
 
+------
+
 导入预设全局样式：
 
 - index.less：全局样式，引入子样式
@@ -23,3 +25,36 @@ Install ng-zorro-antd，minireset.css
 - mixins.less：less的快捷函数
 - varibles.less：预设颜色和字体的变量
 - zorro.less：ng-zorro-antd的默认样式
+
+
+
+### 模块化设计
+
+- core：管理功能模块
+- share：全局共享模块
+- pages：页面管理模块
+- services：服务管理模块
+
+
+
+### 安装网易云API
+
+Github上下载后压缩包后，解压出文件夹，需要安装依赖
+
+```shell
+npm i
+```
+
+启动服务
+
+```
+node .\app.js
+
+server running @ http://localhost:3000
+```
+
+
+
+------
+
+新增文件common.type.ts，用于存放各种数据类型
