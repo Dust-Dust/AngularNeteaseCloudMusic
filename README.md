@@ -1,27 +1,25 @@
-# NgWyy
+# Angular仿网易云音乐开发文档
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
+视频课程：https://www.bilibili.com/video/BV1iJ411F7Bf
 
-## Development server
+项目地址：https://github.com/Dust-Dust/AngularNeteaseCloudMusic
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+项目源码：https://github.com/lycHub/ng-wyy
 
-## Code scaffolding
+网易云音乐API：https://binaryify.github.io/NeteaseCloudMusicApi/#/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 2022年6月17日
 
-## Build
+### 初始化项目
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Angular CLI version 8.3.0
 
-## Running unit tests
+Install ng-zorro-antd，minireset.css
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+导入预设全局样式：
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- index.less：全局样式，引入子样式
+- layout.less：class样式
+- mixins.less：less的快捷函数
+- varibles.less：预设颜色和字体的变量
+- zorro.less：ng-zorro-antd的默认样式
