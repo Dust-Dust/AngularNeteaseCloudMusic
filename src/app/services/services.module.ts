@@ -1,7 +1,7 @@
 import { InjectionToken, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeService } from './home.service';
 
+// 令牌
 export const API_CONFIG = new InjectionToken('ApiConfigToken')
 
 @NgModule({
@@ -10,8 +10,8 @@ export const API_CONFIG = new InjectionToken('ApiConfigToken')
     CommonModule
   ],
   providers: [
-    // 声明一个调用API的前缀方便调用
-    { provide: API_CONFIG, useValue: 'http://locahost:3000/' }
+    // 声明一个baseUrl的前缀方便调用
+    { provide: API_CONFIG, useValue: 'http://localhost:3000/' }
   ]
 })
 export class ServicesModule { }

@@ -58,3 +58,13 @@ server running @ http://localhost:3000
 ------
 
 新增文件common.type.ts，用于存放各种数据类型
+
+
+
+## 2022年6月20日
+
+新增home-routing.module.ts：控制首页的路由
+
+新增home.services.ts：首页的服务器函数（调用API）
+
+新增wy-carousel组件：控制轮播图左右翻页的箭头、圆点
