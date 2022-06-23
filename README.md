@@ -68,3 +68,13 @@ server running @ http://localhost:3000
 新增home.services.ts：首页的服务器函数（调用API）
 
 新增wy-carousel组件：控制轮播图左右翻页的箭头、圆点
+
+
+
+## 2022年6月23日
+
+新增wy-ui.module.ts：用于存放各种通用的样式组件
+
+新增single-sheet组件：设置歌单样式、布局
+
+新增play-count管道：用于格式化歌单播放量

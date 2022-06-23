@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { NgZorroAntdModule } from 'ng-zorro-antd';
+import { WyUiModule } from './wy-ui/wy-ui.module';
+import { PlayCountPipe } from './play-count.pipe';
 
 
 
@@ -11,12 +13,14 @@ import { NgZorroAntdModule } from 'ng-zorro-antd';
     // Zorro公共UI组件
     NgZorroAntdModule,
     FormsModule,
-    CommonModule
+    CommonModule,
+    WyUiModule
   ],
   exports: [
     NgZorroAntdModule,
     FormsModule,
-    CommonModule
+    CommonModule,
+    WyUiModule,
   ]
 })
 export class ShareModule { }
