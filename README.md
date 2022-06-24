@@ -83,4 +83,6 @@ server running @ http://localhost:3000
 
 ## 2022年6月24日
 
-新增组件：member-card：用户登录框
+新增member-card组件：用户登录框
+
+新增singer.service.ts：用于调用关于歌手的API
