@@ -21,3 +21,11 @@ export interface SongSheet {
     picUrl: string; // 图片地址
     playCount: number; // 播放量
 }
+
+// 歌手
+export interface Singer {
+    id: number;
+    name: string;
+    picUrl: string;
+    albumSize: number;   // 专辑数
+}

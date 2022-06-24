@@ -78,3 +78,9 @@ server running @ http://localhost:3000
 新增single-sheet组件：设置歌单样式、布局
 
 新增play-count管道：用于格式化歌单播放量
+
+
+
+## 2022年6月24日
+
+新增组件：member-card：用户登录框
