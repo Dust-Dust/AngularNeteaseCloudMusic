@@ -94,3 +94,5 @@ server running @ http://localhost:3000
 新增home-resolve.service.ts：路由守卫
 
 home.component.ts的代码因为路由守卫改变写法后精简了很多，建议将P11部分多看看。
+
+新增wy-player组件：主页下方的播放器
