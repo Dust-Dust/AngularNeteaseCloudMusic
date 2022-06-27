@@ -1,0 +1,60 @@
+<div class="m-player">
+    <div class="lock">
+        <div class="left"><i></i></div>
+    </div>
+    <!-- 手势焦点判定用的横条 -->
+    <div class="hand"></div>
+    <div class="container">
+        <div class="wrap">
+            <!-- 左边的三个按钮组 -->
+            <div class="btns">
+                <i class="prev"></i>
+                <i class="toggle"></i>
+                <i class="next"></i>
+            </div>
+            <!-- 播放中歌曲的图片 -->
+            <div class="head">
+                <img src="//s4.music.126.net/style/web2/img/default/default_album.jpg" />
+                <i class="mask"></i>
+            </div>
+            <!-- 播放条部分 -->
+            <div class="play">
+                <!-- 歌名、歌手名 -->
+                <div class="words clearfix" [hidden]="true">
+                    <p class="ellipsis">歌名</p>
+                    <ul class="songs clearfix">
+                        <li>
+                            <a>歌手1</a>/
+                        </li>
+                        <li>
+                            <a>歌手2</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 进度条 -->
+                <div class="bar">
+                    <div class="slider-wrap">
+                        <div>进度条</div>
+                    </div>
+                    <!-- 歌曲时间 -->
+                    <span class="time">
+                        <em>02:11</em> / 04:35
+                    </span>
+                </div>
+            </div>
+            <!-- 右边的小按钮组 -->
+            <div class="oper">
+                <i class="like" title="收藏"></i>
+                <i class="share" title="分享"></i>
+            </div>
+            <div class="ctrl">
+                <i class="volume" title="音量"></i>
+                <i class="loop" title="循环"></i>
+                <!-- 展开播放按钮 -->
+                <p class="open">
+                    <span></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
