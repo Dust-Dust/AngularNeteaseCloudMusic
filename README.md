@@ -86,3 +86,11 @@ server running @ http://localhost:3000
 新增member-card组件：用户登录框
 
 新增singer.service.ts：用于调用关于歌手的API
+
+
+
+## 2022年6月27日
+
+新增home-resolve.service.ts：路由守卫
+
+home.component.ts的代码因为路由守卫改变写法后精简了很多，建议将P11部分多看看。
